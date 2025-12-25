@@ -1,41 +1,59 @@
-# Website
+# CS Board ヘルプセンター
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+CS Board（周知掲示板Webアプリケーション）のヘルプセンターおよびお知らせ配信サイトのリポジトリです。
+このサイトは [Docusaurus](https://docusaurus.io/) を使用して構築されています。
 
-## Installation
+## プロジェクト概要
 
-```bash
-yarn
-```
+「CS Board」は架空のアプリケーションであり、このサイトはその操作マニュアルやリリースノートを掲載するためのデモサイトです。
 
-## Local Development
+- **ヘルプセンター**: 機能の使い方やトラブルシューティングガイド（`/docs`）
+- **お知らせ**: 更新情報やメンテナンス情報（`/blog`）
 
-```bash
-yarn start
-```
+## 開発の始め方
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### インストール
 
-## Build
+依存関係をインストールします。
 
 ```bash
-yarn build
+pnpm install
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### ローカルサーバーの起動
 
-## Deployment
-
-Using SSH:
+開発用サーバーを起動します。
 
 ```bash
-USE_SSH=true yarn deploy
+pnpm start
 ```
 
-Not using SSH:
+コマンド実行後、ブラウザで `http://localhost:3000` が自動的に開きます。
+ファイルを編集すると変更が即座に反映されます。
+
+## ビルド
+
+本番環境用の静的ファイルを生成します。
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+pnpm build
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+生成されたファイルは `build` ディレクトリに出力されます。
+
+## ディレクトリ構成
+
+主なディレクトリの役割は以下の通りです。
+
+- `blog/`: お知らせ（リリースノートなど）のMarkdownファイル
+- `docs/`: ヘルプセンター（マニュアルなど）のMarkdownファイル
+- `src/`: Reactコンポーネント、ページ、CSS
+  - `src/pages`: 独立したページ（トップページなど）
+  - `src/css`: カスタムスタイル (custom.css)
+- `static/`: 画像などの静的ファイル
+- `docusaurus.config.ts`: Docusaurusの設定ファイル（サイト名、ナビゲーション、フッター設定など）
+
+## その他
+
+このプロジェクトはDocusaurusのクラシックプリセットを使用しています。
+詳細なドキュメントについては [Docusaurus Documentation](https://docusaurus.io/docs) を参照してください。
