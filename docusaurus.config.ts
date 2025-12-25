@@ -25,6 +25,7 @@ const config: Config = {
   organizationName: 'rynskrmt', // Usually your GitHub org/user name.
   projectName: 'docusaurus-demo', // Usually your repo name.
 
+  deploymentBranch: 'main',
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
