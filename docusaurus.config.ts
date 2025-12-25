@@ -99,11 +99,11 @@ const config: Config = {
           items: [
             {
               label: 'はじめに',
-              to: '/docs/getting-started/login',
+              to: '/docs/getting-started/intro',
             },
             {
               label: 'お知らせ閲覧',
-              to: '/docs/notices/view',
+              to: '/blog',
             },
           ],
         },
