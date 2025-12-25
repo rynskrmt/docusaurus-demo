@@ -1,0 +1,5 @@
+label: '管理者機能'
+description: '管理者機能'
+link:
+  type: generated-index
+  slug: /management

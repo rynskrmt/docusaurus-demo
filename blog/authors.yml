@@ -1,0 +1,10 @@
+support_team:
+  name: CS Board サポートチーム
+  title: Support Engineer
+  url: https://github.com/facebook/docusaurus
+  image_url: /img/support-team.svg
+system_admin:
+  name: CS Board 管理局
+  title: System Administrator
+  url: https://github.com/facebook/docusaurus
+  image_url: https://github.com/facebook/docusaurus.png

@@ -1,0 +1,39 @@
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
+
+release:
+  label: リリースノート
+  permalink: /release
+  description: 新機能や改善のお知らせ
+
+update:
+  label: アップデート
+  permalink: /update
+  description: システム更新情報
+
+tips:
+  label: 活用Tips
+  permalink: /tips
+  description: CS Boardの便利な使い方
+
+how-to:
+  label: ハウツー
+  permalink: /how-to
+  description: 操作方法の解説
